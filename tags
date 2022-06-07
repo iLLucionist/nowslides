@@ -1,0 +1,61 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/maximl/Projects/python/nowslides/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+${modelTitle}	nowslides/templates/model.html	/^                <h3>${modelTitle}<\/h3>$/;"	j
+${response['value']}	nowslides/templates/frontpage.html	/^        <h1>${response['value']}<\/h1>$/;"	h
+${title}	nowslides/templates/frontpage.html	/^        <h2>${title}<\/h2>$/;"	i
+Cache	nowslides/utils.py	/^class Cache(dict):$/;"	c
+NOWSLIDES	README.md	/^# NOWSLIDES$/;"	c
+_DEBUG	nowslides/main.py	/^_DEBUG = False$/;"	v
+_ELPARSERS	nowslides/main.py	/^_ELPARSERS = module_to_dict(_elparsers)$/;"	v
+_TPLCACHE	nowslides/main.py	/^_TPLCACHE = Cache(lambda f: Template($/;"	v
+_TPLDIR	nowslides/main.py	/^_TPLDIR = os.path.join(os.path.dirname(__file__), 'templates')$/;"	v
+__getitem__	nowslides/utils.py	/^    def __getitem__(self, key):$/;"	m	class:Cache
+__init__	nowslides/utils.py	/^    def __init__(self, action, disable=False):$/;"	m	class:Cache
+__version__	nowslides/__init__.py	/^__version__ = '0.1.0'$/;"	v
+_disable	nowslides/utils.py	/^    _disable = False$/;"	v	class:Cache
+_elparsers	nowslides/main.py	/^from . import elements as _elparsers$/;"	x	nameref:unknown:elements
+_log	nowslides/main.py	/^def _log(msg):$/;"	f
+div	nowslides/elements.py	/^def div(e, v, p):$/;"	f
+elparsers	example.py	/^elparsers = [$/;"	v
+get_intent	nowslides/main.py	/^def get_intent(intent, y):$/;"	f
+get_template	nowslides/main.py	/^def get_template(name): return _TPLCACHE[name]$/;"	f
+get_template_path	nowslides/main.py	/^def get_template_path():$/;"	f
+h1	nowslides/elements.py	/^def h1(e, v, p):$/;"	f
+h2	nowslides/elements.py	/^def h2(e, v, p):$/;"	f
+h3	nowslides/elements.py	/^def h3(e, v, p):$/;"	f
+h4	nowslides/elements.py	/^def h4(e, v, p):$/;"	f
+h5	nowslides/elements.py	/^def h5(e, v, p):$/;"	f
+html	example.py	/^html = nowslides.render_presentation(y, variables, elparsers)$/;"	v
+listing	example.py	/^def listing(e, v, p):$/;"	f
+load_yaml	nowslides/utils.py	/^def load_yaml(fname):$/;"	f
+module_to_dict	nowslides/utils.py	/^def module_to_dict(module):$/;"	f
+navbar	nowslides/templates/base.html	/^        <div id="navbar">$/;"	I
+next-slide	nowslides/templates/base.html	/^                <li><a id="next-slide" href="#">Volgende<\/a><\/li>$/;"	I
+notfound	nowslides/elements.py	/^def notfound(e, v, p):$/;"	f
+p	nowslides/elements.py	/^def p(e, v, p):$/;"	f
+parse_intent	nowslides/main.py	/^def parse_intent(intent, variables):$/;"	f
+previous-slide	nowslides/templates/base.html	/^                <li><a id="previous-slide" href="#">Vorige<\/a><\/li>$/;"	I
+render_areas	nowslides/main.py	/^def render_areas(areas, variables, elparsers):$/;"	f
+render_element	nowslides/main.py	/^def render_element(element, variables, elparsers):$/;"	f
+render_elements	nowslides/main.py	/^def render_elements(elements, variables, elparsers):$/;"	f
+render_presentation	nowslides/main.py	/^def render_presentation(y, variables={}, elparsers=[], tplpath=_TPLDIR):$/;"	f
+render_slide	nowslides/main.py	/^def render_slide(slide, i, variables, elparsers):$/;"	f
+render_slides	nowslides/main.py	/^def render_slides(slides, variables, elparsers):$/;"	f
+set_template_path	nowslides/main.py	/^def set_template_path(path):$/;"	f
+simple	nowslides/elements.py	/^def simple(text, v={}, tag='p'):$/;"	f
+slide-counter	nowslides/templates/base.html	/^                <li><span id="slide-counter" class="counter">1 \/ 10<\/span><\/li>$/;"	I
+slides	nowslides/templates/base.html	/^        <div id="slides">$/;"	I
+team_top4	example.py	/^def team_top4(e, v, p):$/;"	f
+test_version	tests/test_nowslides.py	/^def test_version():$/;"	f
+ul	nowslides/elements.py	/^def ul(e, v, p):$/;"	f
+variables	example.py	/^variables = {$/;"	v
+y	example.py	/^y = nowslides.load_yaml('.\/example.yaml')$/;"	v

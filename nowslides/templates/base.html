@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>${title}</title>
+        <link
+        href="https://fonts.googleapis.com/css?family=Nunito:400,600,700,800&display=swap"
+        rel="stylesheet">
+        % for x in css:
+        <link href="${x}" rel="stylesheet">
+        % endfor
+        <style>
+            .slide { display: none; }
+            .visible.slide { display: block; }
+        </style>
+    </head>
+    <body class="{{ show-grid }}">
+        <div id="slides">
+            ${slides}
+        </div>
+
+        <div id="navbar">
+            <ul>
+                <li><a id="previous-slide" href="#">Vorige</a></li>
+                <li><span id="slide-counter" class="counter">1 / 10</span></li>
+                <li class="symbol"><a href="#">&#8505;</a></li>
+                <li><a id="next-slide" href="#">Volgende</a></li>
+            </ul>
+        </div>
+
+        % for x in js:
+        <script src="${x}"></script>
+        % endfor
+    </body>
+</html>

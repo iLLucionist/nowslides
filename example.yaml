@@ -1,0 +1,53 @@
+presentation:
+    variables:
+        title: Employee Research
+        author: The Author
+        datum: 2 November 2020
+        basedir: tpl/assets/
+        jsfiles: lib/assets
+        assets: lib/assets
+        dbgtpl: lib/tpl/dist
+    intent: screen
+    screen:
+        master: base
+        inline_js: yes
+        inline_css: yes
+        js:
+            - "{assets}/navbar.js"
+        css:
+            - "{dbgtpl}/redtint.css"
+    slides:
+        - type: frontpage
+        - type: three columns
+          header:
+              - h2: Explanation
+              - h1: What are your scores?
+          left:
+              - p: ' '
+          middle:
+              - p: Some text
+          right:
+              - p: ' '
+        - type: model
+          variables:
+              modelTitle: Themes in this report
+          header:
+              - h2: EXPLANATION 1
+              - h1: Things to explain
+          ivs:
+              - ul:
+                  - A list
+                  - A list
+                  - A list
+              - ul:
+                  - Another list
+                  - Another list
+                  - Another list
+          dvs:
+              - h5: More things
+              - ul:
+                  - A list
+                  - A list
+                  - A list
+          arrowbox:
+              - p: "Left leads to right"
